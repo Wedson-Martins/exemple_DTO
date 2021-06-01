@@ -1,0 +1,43 @@
+package com.wcode.implementDTO.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.wcode.implementDTO.model.People;
+import com.wcode.implementDTO.repository.PeopleRepository;
+
+public class PeopleServiceImpl implements PeopleService {
+
+	@Autowired
+	private PeopleRepository peopleRepository;
+
+	@Override
+	public People create(People people) {
+		return this.peopleRepository.save(people);
+	}
+
+	@Override
+	public List<People> findAll(People people) {
+		return this.peopleRepository.findAll();
+	}
+
+	@Override
+	public People findOne(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public People update(Long id, People people) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

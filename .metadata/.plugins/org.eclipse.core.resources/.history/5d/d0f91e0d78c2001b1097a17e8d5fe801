@@ -1,0 +1,14 @@
+package com.wcode.implementDTO.model;
+
+public class People {
+	
+	private Long id;
+	private String name;
+	private String lastName;
+	private Address address;
+	
+	
+
+	
+	
+}

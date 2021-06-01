@@ -1,0 +1,14 @@
+package com.wcode.implementDTO.service;
+
+import java.util.List;
+
+import com.wcode.implementDTO.model.People;
+
+public interface PeopleService {
+	
+	public People create(People people);
+	public List<People> create(People people);
+	
+	
+	
+}

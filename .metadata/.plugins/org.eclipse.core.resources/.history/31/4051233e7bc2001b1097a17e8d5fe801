@@ -1,0 +1,8 @@
+package com.wcode.implementDTO.controller;
+
+
+
+@REs
+public class PeopleController {
+
+}

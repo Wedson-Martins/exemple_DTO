@@ -1,0 +1,26 @@
+package com.wcode.implementDTO.DTO;
+
+import java.io.Serializable;
+
+import com.wcode.implementDTO.model.People;
+
+public class PeopleDTO implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private String name;
+	private String lastName;
+//	private String address;
+
+	public PeopleDTO(People people) {
+		this.name = people.getName();
+		this.lastName = people.getLastName();
+//		this.address = "Rua " + people.getAddress().getStreet() + ", " 
+//				+ people.getAddress().getDistrict() + ", "
+//				+ people.getAddress().getCity() + " - " 
+//				+ people.getAddress().getState() + " - "
+//				+ people.getAddress().getCEP();
+
+	}
+
+}

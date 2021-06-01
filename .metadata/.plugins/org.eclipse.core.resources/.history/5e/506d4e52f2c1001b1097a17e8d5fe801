@@ -1,0 +1,5 @@
+package com.wcode.implementDTO.model;
+
+public class People {
+
+}
